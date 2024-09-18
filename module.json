@@ -1,0 +1,165 @@
+{
+	"id": "pf2e-improphets-tome",
+	"title":"PF2e Improphet's Tome",
+	"description":"",
+	"authors":[{
+		"name":"Joshua Birdsong"
+	}],
+	"version": "1.0.0",
+	"manifest":"https://github.com/dogstarrb/pf2e-improphets-tome/releases/latest/download/module.json",
+	"download":"https://github.com/dogstarrb/pf2e-improphets-tome/releases/latest/download/pf2e-improphets-tome.zip"
+	"packs": [
+		{
+		"label":"Classes",
+		"name":"Tome-Classes",
+		"path":"packs/tome-classes",
+		"system":"pf2e",
+		"type":"Item"},
+		{
+		"label":"Actions",
+		"name":"Tome-Actions",
+		"path":"packs/tome-actions",
+		"system":"pf2e",
+		"type":"Item"},
+		{
+		"label":"Class Features",
+		"name":"Tome-Class-Features",
+		"path":"packs/tome-class-features",
+		"system":"pf2e",
+		"type":"Item"},
+		{"label":"Feats",
+		"name":"Tome-Feats",
+		"path":"packs/tome-feats",
+		"system":"pf2e",
+		"type":"Item"},
+		{"label":"Ancestry",
+		"name":"Tome-Ancestry",
+		"path":"packs/tome-heritages",
+		"system":"pf2e",
+		"type":"Item"},
+		{"label":"Spells",
+		"name":"Tome-Spells",
+		"path":"packs/tome-spells",
+		"system":"pf2e",
+		"type":"Item"},
+		{"label":"Equipment",
+		"name":"Tome-Equipment",
+		"path":"packs/tome-equipment",
+		"system":"pf2e",
+		"type":"Item"},
+		{"label":"Backgrounds",
+		"name":"Tome-Backgrounds",
+		"path":"packs/tome-backgrounds",
+		"system":"pf2e",
+		"type":"Item"},
+		{"label":"Effects",
+		"name":"Tome-Effects",
+		"path":"packs/tome-effects",
+		"system":"pf2e",
+		"type":"Item"},
+		{"label":"Journals",
+		"name":"Tome-Journals",
+		"path":"packs/tome-journals",
+		"system":"pf2e",
+		"type":"JournalEntry"}],
+	"packFolders": [{
+		"name":"Improphet's Tome",
+		"sorting":"a",
+        "packs": [
+                  "Tome-Actions",
+                  "Tome-Ancestry",
+                  "Tome-Ancestry-Features",
+                  "Tome-Class-Features",
+                  "Tome-Classes",
+                  "Tome-Equipment",
+                  "Tome-Feats",
+                  "Tome-Heritages",
+                  "Tome-Spells",
+				  "Tome-Effects",
+				  "Tome-Journals"
+            ]
+	}],
+	"flags":{
+		"pf2e-improphets-tome":{
+			"pf2e-homebrew":{
+				"creatureTraits":{
+					},
+				"equipmentTraits":{
+					"candle":{
+						"label":"Candle",
+						"description":"An alchemical candle."
+					},
+					"wax":{
+						"label":"Wax",
+						"description":"An item of alchemical wax."
+					}
+				},
+				"featTraits":{
+					"warlock":{
+						"label":"Warlock",
+						"description":"Belonging to the Warlock class."
+					},
+					"invocation":{
+						"label":"Invocation",
+						"description":"Invocation Warlock class feature."
+					},
+					"giantkin":{
+						"label":"Giant-Kin",
+						"description":"Related to the Giant-Kin ancestry."
+					}
+				},
+				"spellTraits":{
+					"warlock":{
+						"label":"Warlock",
+						"description":"Belonging to the Warlock class."
+					}
+				},
+				"shieldTraits":{
+					"wax":{
+						"label":"Wax",
+						"description":"An item of alchemical wax."
+					},
+					"alchemical":{
+						"label":"Alchemical",
+						"description":"An alchemical item."
+					},
+					"consumable":{
+						"label":"Consumable",
+						"description":"An item that is consumed upon use."
+					}
+				},
+				"weaponTraits":{
+					"polymorph":{
+						"label":"Polymorph",
+						"description":"Polymorph"
+					},
+					"misfortune":{
+						"label":"Misfortune",
+						"description":"Misfortune"
+					},
+					"visual":{
+						"label":"Visual",
+						"description":"Visual"
+					}
+				},
+				"languages":{
+					
+					}
+				}
+			}
+		},
+	"relationships": {
+		"systems": [{
+			"id": "pf2e",
+			"type": "system",
+			"compatibility": {
+				"minimum": "6.2"
+				}
+			}]
+	},
+	"compatibility": {
+		"minimum": "12",
+		"verified": "12"
+		}
+
+}
